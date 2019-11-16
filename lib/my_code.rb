@@ -8,7 +8,7 @@ def map(array)
   i = 0 
   while i < array.length do 
     
-    new << yield
+    new << yield(array[i])
     i += 1 
   end
   return new 
