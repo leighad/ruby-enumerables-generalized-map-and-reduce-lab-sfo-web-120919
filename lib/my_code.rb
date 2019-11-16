@@ -1,17 +1,12 @@
 # # Your Code Here
 def map(array)
-  # array.map do
-  #   |el| el * -1
-  #   end
-  # (map(array){|n| n * -1})
   new = []
   i = 0 
   while i < array.length do 
-    
     new << yield(array[i])
     i += 1 
   end
-  return new 
+  new 
 end
 
 # my_own_map([1, 2, 3, -9]) { |n| n * -1 }
