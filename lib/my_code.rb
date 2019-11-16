@@ -10,7 +10,13 @@ def map(array)
 end
 
 def reduce(array, start = 0)
-  
+  total = start
+  i = 0 
+  while i < array.length do 
+    total += yield(array[i])
+    i += 1 
+  end
+  total
 end
 
 
