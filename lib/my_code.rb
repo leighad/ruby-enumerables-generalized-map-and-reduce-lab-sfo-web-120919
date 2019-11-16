@@ -9,25 +9,8 @@ def map(array)
   new 
 end
 
-# my_own_map([1, 2, 3, -9]) { |n| n * -1 }
+def reduce(array, start = 0)
+  
+end
 
-# def my_own_map(array)
-#   # return array.map {|n| n}
-# end
-
-# def my_own_map(array)
-#   # return array.map {|n| n * 2}
-# end
-
-# def my_own_map(array)
-#   # return array.map {|n| n * n}
-# end
-
-# # def my_own_map(array)
-# #   array.reduce {|n| }
-# # end
-
-# def my_own_map(array)
-#   array.map { |n| n * -1 }
-# end
 
